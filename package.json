@@ -1,0 +1,14 @@
+{
+  "name": "dependency-updater",
+  "version": "1.0.0",
+  "description": "Tool to update dependencies across multiple repositories",
+  "main": "src/update-dependency.js",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.0",
+    "inquirer": "^8.2.4",
+    "chalk": "^4.1.2"
+  }
+} 
