@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const repos = require('../nuxt_repos.json');
 // Constants for GitHub and dependency configuration
 const config = {
   github: {
@@ -11,10 +12,7 @@ const config = {
     version: '1.6.4',
   },
   filePath: 'package.json',
-  repositories: [
-    { owner: 'roostergrin', repo: 'proppersmiles' },
-    // Add more repositories as needed.
-  ],
+  repositories: repos,
 };
 
 module.exports = config; 
