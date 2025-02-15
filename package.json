@@ -4,11 +4,16 @@
   "description": "Tool to update dependencies across multiple repositories",
   "main": "src/update-dependency.js",
   "scripts": {
-    "start": "node src/cli.js"
+    "start": "node src/cli.js",
+    "dev": "nodemon src/cli.js"
   },
   "dependencies": {
     "@octokit/rest": "^19.0.0",
-    "inquirer": "^8.2.4",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
-} 
+}

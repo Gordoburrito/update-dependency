@@ -11,7 +11,7 @@ class DependencyManager {
   addDependency(packageJson) {
     packageJson.dependencies = packageJson.dependencies || {};
     packageJson.dependencies[config.dependency.name] = config.dependency.version;
-    return JSON.stringify(packageJson, null, 2);
+    return JSON.stringify(packageJson, null, 2) + '\n';
   }
 }
 

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // Constants for GitHub and dependency configuration
 const config = {
   github: {
@@ -10,8 +12,7 @@ const config = {
   },
   filePath: 'package.json',
   repositories: [
-    { owner: 'your-org-or-username', repo: 'nuxt-site-1' },
-    { owner: 'your-org-or-username', repo: 'nuxt-site-2' },
+    { owner: 'roostergrin', repo: 'proppersmiles' },
     // Add more repositories as needed.
   ],
 };
