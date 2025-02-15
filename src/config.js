@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const repos = require('../nuxt_repos.json');
+const repos = require('./nuxt_repos.json');
 // Constants for GitHub and dependency configuration
 const config = {
   github: {
